@@ -1,4 +1,7 @@
-package boj;
+/*
+2021-01-28
+BOJ2447: 별 찍기-10
+*/
 
 import java.util.Arrays;
 import java.util.Scanner;
