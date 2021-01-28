@@ -31,7 +31,7 @@ public class BOJ7568 {
 					continue;
 	
 				Person p2 = people.get(j);
-				count += p1.w < p2.w ? p1.h < p2.h ?  1 : 0 : 0; 
+				count += ((p1.w < p2.w) ? p1.h < p2.h) ?  1 : 0 : 0; 
 				
 			}
 			
