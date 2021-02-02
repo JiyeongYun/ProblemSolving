@@ -39,7 +39,7 @@ public class BOJ11650 {
         });
         
         for(int i = 0; i < t; i++) {
-        	sb.append(arr[i][0]).append(" ").append(arr[i][1]).append(" \n");
+        	sb.append(arr[i][0]).append(" ").append(arr[i][1]).append("\n");
 		}
         
         out.write(sb.toString());
