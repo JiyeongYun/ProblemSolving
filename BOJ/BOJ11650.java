@@ -1,4 +1,8 @@
-package boj;
+/**
+ * BOJ 11650 - 좌표 정렬하기
+ * MEMORY: 61192KB
+ * EXECUTION TIME: 612ms
+ */
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
