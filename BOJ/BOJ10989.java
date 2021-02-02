@@ -1,4 +1,8 @@
-package boj;
+/**
+ * BOJ 10989 - 수 정렬하기3
+ * MEMORY: 480768KB
+ * EXECUTION TIME: 1692ms
+ */
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
