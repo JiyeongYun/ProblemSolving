@@ -1,7 +1,7 @@
 package boj;
 
 /**
- * 2021-02-04
+ * 2021-02-03
  * BOJ 4949 - 균형잡힌 세상
  * Memory: 17020KB
  * Execution Time: 164ms
