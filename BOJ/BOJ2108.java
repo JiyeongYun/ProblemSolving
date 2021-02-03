@@ -55,7 +55,7 @@ public class BOJ2108 {
      		});
         
         	// 1. 산술평균 - 소수점 이하 첫째 자리에서 반올림한 값을 출력
-        	sb.append((int)Math.round((double)sum/N)).append("\n");
+        	sb.append(Math.round((double)sum/N)).append("\n");
 
         	// 2. 중앙값
         	sb.append(arr.get(N/2)).append("\n");
