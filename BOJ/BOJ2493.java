@@ -42,15 +42,15 @@ public class BOJ2493 {
         	int next = arr.pop();
         	int nextIdx = arrIdx.pop();
         	
-        	if(now < next) {					// 자신 다음 나오는 수가 자기보다 크면 
-        		answer[nowIdx] = nextIdx;		// 그 수의 idx를 저장하기 
+        	if(now < next) {						// 자신 다음 나오는 수가 자기보다 크면 
+        		answer[nowIdx] = nextIdx;				// 그 수의 idx를 저장하기 
         		while(!notFnd.empty() && notFnd.peek() < next) {	// 아직 처리되지 못한 수 중에 조건에 맞으면 처리해주기  
         			notFnd.pop();
         			answer[notFndIdx.pop()] = nextIdx;
         		}
         	}else {								// 자신 다음 나오는 수가 자신보다 크지 않으면 나중에 처리하기 위해 잠시 stack에 넣기
         		notFnd.push(now);
-        		notFndIdx.push(nowIdx);			// index도 같이!
+        		notFndIdx.push(nowIdx);					// index도 같이!
         	}
         	
         	now = next;							// change
@@ -58,8 +58,8 @@ public class BOJ2493 {
         	
         }
         
-        answer[nowIdx] = 0;						// 제일 처음 나온 수는 왼쪽에 수가 존재하지 않기 때문에 0
-        while(!notFnd.empty()) {				// 처리되지 못한 수는 없다는 뜻. ==> 고로 0
+        answer[nowIdx] = 0;							// 제일 처음 나온 수는 왼쪽에 수가 존재하지 않기 때문에 0
+        while(!notFnd.empty()) {						// 처리되지 못한 수는 없다는 뜻. ==> 고로 0
         	notFnd.pop();
         	answer[notFndIdx.pop()] = 0;
         }
