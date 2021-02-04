@@ -3,8 +3,8 @@ package swea;
 /**
  * 2021-02-04
  * SWEA 1218 - 괄호 짝짓기 
- * Memory:
- * Execution Time: 
+ * Memory: 18,660KB
+ * Execution Time: 99ms
  */
 
 import java.io.BufferedReader;
