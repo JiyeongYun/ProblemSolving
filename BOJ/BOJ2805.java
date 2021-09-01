@@ -12,7 +12,7 @@ public class BOJ2805 {
 		int M = Integer.parseInt(st.nextToken());
 		int trees[] = new int[N];
 	
-		// 랜선 정보 입력받기 + right 값은 나무 최대 길이 찾아 저장
+		// 나무길이 입력받기 + right 값은 나무 최대 길이 찾아 저장
 		int left = 0, right = Integer.MIN_VALUE;
 		st = new StringTokenizer(in.readLine(), " ");
 		for(int i = 0; i < N; i++) {
